@@ -1,0 +1,76 @@
+
+.gradient-background{
+    background: linear-gradient(45deg, #380023, #3f003d, #420002);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
+}
+
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.solid-background-light{
+    background-color: rgb(253, 220, 253);
+}
+
+.solid-background-dark{
+    background-color: rgb(29, 0, 25);
+}
+
+.nav-item > .nav-link, .logo-text, .nav-item > .nav-link.active{
+    color: rgb(253, 220, 253);
+}
+
+.nav-item > .nav-link.active{
+    background-color: rgb(92, 11, 51);
+}
+
+.btn.btn-primary.btn-lg{
+    background-color: rgb(196, 121, 196);
+}
+
+.header-text{
+    color: rgb(240, 155, 252);
+    font-weight: 400;
+    /* font-family: "Raleway", sans-serif; */
+}
+
+.subheader-text{
+    color: rgb(253, 220, 253);
+    font-size: 1.75rem;
+}
+
+.dark-cosmic-jhin-img-1{
+    filter: drop-shadow(4px 4px 10px hsla(0deg, 0%, 0%, 0.5));
+    padding-left: 5rem;
+}
+
+.profile-image{
+    border-radius: 50%;
+}
+
+
+.ability-icon{
+    border-radius: 10%;
+    margin: 0.25rem;
+}
+
+.ability-name{
+    color:rgb(253, 220, 253);
+}
+
+.ability-description{
+    color:rgb(228, 197, 228);
+}
+
+.footer-content{
+    color:rgb(228, 197, 228);
+}
